@@ -14,7 +14,7 @@ We will be building several functions throughout this lecture. In order to do th
 ## Instructions.
 All your coding will be done in the files located inside the ```exercises``` directory
 1. In sum.js declare a function named ```sum``` with two ```parameters```. This function should return the sum of both ```arguments``` when called. e.g: ```sum(2,2)``` will return ```4```.
-2. In squareRoot.js declare a function named ```squareRoot``` with one ```parameter```. This function should return the square root of whatever ```argument``` you pass to it. e.g: ```squareRoot(4)``` should return ```2```
+2. In squareRoot.js declare a function named ```squareRoot``` with one ```parameter```. This function should return the square root of whatever ```argument``` you pass to it. e.g: ```squareRoot(4)``` should return ```2```. If the function receives an argument that's not a number, or no argument at all, return ```null```.
 3. In isEven.js declare a function named ```isEven``` with one ```parameter```. This function will return ```true``` if the ```argument``` is even, and ```false``` if the ```argument``` is odd. e.g: ```isEven(2)``` returns ```true```. ```isEven(3)``` returns ```false```
 4. In isThereFalseInArray.js declare a function named ```isThereFalseInArray``` with one ```parameter```. This function will return ```true``` if one of the elements in the ```argument``` is falsey, and it will return ```false``` if no element in the ```argument``` is falsey. e.g: ``isThereFalseInArray([1,2,3,false,5])`` will return ```true```.
 5. In animalSound.js declare a function named ```animalSound``` with one parameter. The function will return an animal sound based on the ```argument``` that's passed to it.
@@ -24,3 +24,5 @@ All your coding will be done in the files located inside the ```exercises``` dir
 ```animalSound("caw caw")``` returns ```"crow"```
 This function will return ```"Don't know that sound"```  for every other string.
 Hint: You shouldn't use ```if else``` statements for this one.
+6. In totalSum.js declare a function named ```totalSum``` with one parameter. This function should be able to handle an indefinite number of arguments for each execution. This function will return the total sum of all the arguments passed to it. If no arguments are passed. The function will return 0.
+7. In person.js declare a function named ```person``` with 3 parameters. This function should return an ```object``` that has 3 properties (name, age, alive). The name property should be equals to the first argument that was passed to the function, age should be equals to the second argument, and alive should be equals to the third argument. The three parameters in your function declaration should have default values of: ```"student", 0, true``` respectively.

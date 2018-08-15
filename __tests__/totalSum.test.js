@@ -1,6 +1,6 @@
 let totalSum = require('../exercises/totalSum');
 
-xdescribe('totalSum function', () => {
+describe('totalSum function', () => {
 	it('should sum the correct number of values', () => {
 		expect(totalSum(1,2,3)).toBe(6);
 	})
