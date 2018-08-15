@@ -1,4 +1,4 @@
-describe("animalSound function", () => {
+xdescribe("animalSound function", () => {
 	let animalSound = require('../exercises/animalSound');
 	it("should return correct animal sound", () => {
 		expect(animalSound("meow")).toBe("cat");
