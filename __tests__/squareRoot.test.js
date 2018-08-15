@@ -1,6 +1,5 @@
-let squareRoot = require('../exercises/squareRoot');
-
 describe("squareRoot function", () => {
+	let squareRoot = require('../exercises/squareRoot');
 	it("should return 2 when argument is 4", () => {
 		expect(squareRoot(4)).toBe(2);
 	})

@@ -1,6 +1,5 @@
-let sum = require('../exercises/sum');
-
 describe("sum function", () => {
+	let sum = require('../exercises/sum');
   it("should return 4 when arguments are 2 and 2", () => {
     expect(sum(2, 2)).toBe(4);
   });

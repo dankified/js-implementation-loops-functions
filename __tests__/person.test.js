@@ -1,6 +1,5 @@
-let person = require('../exercises/person');
-
 describe('person function', () => {
+	let person = require('../exercises/person');
 	it('should create an object', () => {
 		expect(Object.keys(person("x", 2, true)).length).toBe(3);
 	})
