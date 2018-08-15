@@ -5,9 +5,8 @@ We will be building several functions throughout this lecture. In order to do th
 
 ## setup
 1. Change directory ```(cd)``` into your ```wyncode``` folder
-2. Create a new directory named ```js-loops-functions```
-implementation lectures for us to use.
-3. Change directory into the newly created folder
+2. Clone the project that was shared on Slack.
+3. Change directory into the newly cloned project
 4. Type in your terminal ```npm i -g jest```. This command will install the jest testing library. This is what makes the testing magic happen.
 5. Once that's done type ```npm run test```. You will most likely see a couple of errors, and that's totally fine considering that we have not written any code.
 6. As soon as you start writing your functions you'll start seeing how some of the tests start passing.
